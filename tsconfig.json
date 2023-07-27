@@ -1,9 +1,16 @@
 {
     "compilerOptions": {
-        "normalTypeScriptOptions": "here"
+      "target": "es2020",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "outDir": "dist",
+  
+      "jsx": "react",
+      "jsxFactory": "JSX.createElement",
+      "jsxFragmentFactory": "JSX.Fragment",
+      "skipLibCheck": true
     },
-    "typedocOptions": {
-        "entryPoints": ["src/index.ts"],
-        "out": "docs"
-    }
-}
+    "include": ["src"]
+  }

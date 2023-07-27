@@ -1,28 +1,28 @@
 {
+  "name": "StreamProtocol",
+  "version": "1.0.0",
+  "description": "Typedoc Plugin & Theme. Extends typedoc-theme and combined other packages.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo"
+  },
+  "keywords": [
+    "typedoc-plugin",
+    "typedoc-theme"
+  ],
+  "author": "Stream Protocol",
+  "license": "ISC",
+  "engines": {
+    "node": ">= 14"
+  },
+  "peerDependencies": {
+    "typedoc": "^0.24.8"
+  },
   "devDependencies": {
     "typedoc": "^0.24.8"
   },
   "dependencies": {
-    "sonicware-tdt": "^20.0.0"
-  },
-  "name": "typedoc-template",
-  "version": "1.0.0",
-  "description": "Project document template",
-  "main": "index.js",
-  "scripts": {
-    "test": "run test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/stream-innovations/typedoc-template.git"
-  },
-  "keywords": [
-    "doc"
-  ],
-  "author": "Stream Innovations",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/stream-innovations/typedoc-template/issues"
-  },
-  "homepage": "https://github.com/stream-innovations/typedoc-template#readme"
+    "@types/node": "^20.4.2",
+    "fs": "^0.0.1-security"
+  }
 }
